@@ -16,12 +16,12 @@ def predictor():
     if request.method == 'POST':
         if predictor_function(dict(request.form)):
             price = predictor_function(dict(request.form))
-            price=jsonify(price)
-            response = '200 OK'
-            return(response + '\n' + price)
+            #price=jsonify(price)
+            print('200 OK')
+            return '200 OK'+ '\n'+ str(price)
         else:
             response = '400 BAD REQUEST'
-
+            return response
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
     app.run(debug=True, host='0.0.0.0', port=port)
