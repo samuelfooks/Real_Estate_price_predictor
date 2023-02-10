@@ -20,7 +20,7 @@ Further work will focus on increasing the accuracy of the pretrained models by i
 
 ## Getting Started
 
-To deploy my trained models directly begin in Part 4.  The app can be deployed locally or built in the dockerfile and deployed elsewhere. The callAPI.py gives 2 examples of valid API calls that will return a prediction.
+To deploy my trained models directly begin in Part 4, definitely read README(part4).  The app can be deployed locally or built in the dockerfile and deployed elsewhere. The callAPI.py gives 2 examples of valid API calls that will return a prediction.
 
 Build yourself:
 Scrape the Immoweb data using the functions from Part 1
