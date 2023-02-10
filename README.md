@@ -14,7 +14,7 @@ The project was dividen into 4 parts:
 
 3. data_modelling contains the functions to train each of a randomforest and XGBoost regression models on the cleaned data from the data-analysis part.
 
-4. Deployment contains the necessary files to deploy an API on Render that provides a prediction of the price of a house or apartment based on the saved versions of the ML models from section 3.  With a valid call to the API using a dictionary for a few given parameters of a house or apartment for sale, the API will return a prediction of that property based on the ML model from the data_modelling section.
+4. Deployment contains the necessary files to deploy an API on Render that provides a prediction of the price of a house or apartment based on the saved versions of the ML models from section 3.  With a valid call to the API using a dictionary for a few given parameters of a house or apartment for sale, the API will return a prediction of that property using one of the ML models from the data_modelling section.
 
 Further work will focus on increasing the accuracy of the pretrained models by improving model.py and developing a geographic link in the App.py to give the locations of nearest
 

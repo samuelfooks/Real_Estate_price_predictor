@@ -39,13 +39,13 @@ def predictor_function(input_datadict):
     property_type=int(input_datadf.iloc[0].loc[['typeOfProperty']])
     if property_type == 0:
     
-        forest_pipe_joblib = joblib.load('appt_pred_model.pkl')
+        forest_pipe_joblib = joblib.load('/saved_models/appt_pred_model.pkl')
     
         price_prediction=forest_pipe_joblib.predict(input_datadf)
 
     if property_type == 1:
     
-        forest_pipe_joblib = joblib.load('house_pred_model.pkl')
+        forest_pipe_joblib = joblib.load('/saved_models/house_pred_model.pkl')
     
         price_prediction=forest_pipe_joblib.predict(input_datadf)
     
