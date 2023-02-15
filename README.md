@@ -1,5 +1,5 @@
 
-## Immo_web_price_predictor
+## Real_Estate_price_predictor
 This is a full scope Data Science Project that I was asked to complete as part of my training at BeCode in October 2022.
 
 This project involved the collection and utilization of real estate data from immoweb.be to construct an API that, given a few parameters, would provide a prediction of expected price for a house or apartment.
