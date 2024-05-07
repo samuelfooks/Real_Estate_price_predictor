@@ -48,7 +48,7 @@ urllib3==1.26.18
 
 virtualenv==20.16.6
 websocket-client==1.4.1
-Werkzeug==3.0.1
+Werkzeug==3.0.3
 
 xml-python==0.4.3
 
